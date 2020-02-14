@@ -6,6 +6,7 @@
 body {
     background-image: linear-gradient(to right, #09C6F9, #045DE9);
     font-family: confetti;
+    font-size: 2rem;
     overflow-x: hidden;
 }
 
@@ -26,14 +27,7 @@ body {
     padding-top: 5vh;
 }
 
-/* #seeProjects {
-    font-size: 2rem;
-    text-transform: uppercase;
-    border-radius: 50rem;
-} */
-
 #aboutMe {
-    /* position: absolute; */
     display: block;
     background-color: white;
     opacity: 0.95;
@@ -43,13 +37,19 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
     width: 90vw;
-    /* left: 5vw; */
     margin: auto;
     margin-bottom: 3rem;
 }
 
 #aboutMeContent {
     margin: 1.5rem;
+}
+
+#projects {
+    text-align: center;
+}
+
+#sellMyself {
     text-align: center;
 }
 
@@ -74,6 +74,7 @@ body {
 
 #brandStatement {
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 .flip-card {
@@ -114,7 +115,6 @@ body {
 }
 
 .flip-card-title {
-    /* position: absolute; */
     text-align:center;
 }
 
